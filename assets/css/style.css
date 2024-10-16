@@ -17,21 +17,21 @@ box-sizing: border-box;
 }
 
 h1 {
-    font-size: 200px;
+    font-size: 150px;
     background: linear-gradient(180deg, #FCF5A3 0%, #F3E189 25%, #E9CC6F 50%, #BC9D63 75%, #6B5636 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'Roboto Flex', sans-serif;
     font-weight: 800;
-    line-height: 201px;
+    line-height: 158px;
     letter-spacing: 12px;
     margin-top: -20px;
     padding: 0 10px;
 }
 h3 {
     font-family: 'Kumbh Sans SemiBold', sans-serif;
-    font-size: 48px;
-    line-height: 60px;
+    font-size: 40px;
+    line-height: 42px;
     letter-spacing: 0.46em;
     background: linear-gradient(180deg, #624F31 0%, #BFA065 46.21%, #FEFAAA 100%),
 linear-gradient(0deg, #FFFCAC, #FFFCAC);
@@ -48,6 +48,13 @@ a {
 ul {
     list-style-type: none;
   }
+  .logo {
+    height: 40px;
+}
+.crown {
+    height: 40px;
+    margin-right: 10px;
+}
 .hero {
     background-image: url(../images/hero.jpg) ;
     background-size: cover;
@@ -63,7 +70,7 @@ ul {
     justify-content: space-between;
     align-items: center;
     height: 100%;
-    gap: 500px
+    gap: 550px
 }
 .hero-elements {
     display: flex;
@@ -117,7 +124,7 @@ ul {
     margin: 120px auto 113px auto;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    width: 80%;
+    width: 90%;
     gap: 70px;
 }
 .icons img {
