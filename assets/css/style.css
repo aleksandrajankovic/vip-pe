@@ -326,7 +326,9 @@ ul {
     text-align: center;
     color: #fff;
 }
-
+.popup-box a {
+    color: #EBCE6F;
+}
 .popup-active.show,
 .popup-content-active.show {
     display: block;

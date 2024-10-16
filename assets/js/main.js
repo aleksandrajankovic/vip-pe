@@ -9,7 +9,7 @@ let data = {
     specijalniBonusi: [
       {
         title: "Tecnología",
-        desc: "Nuestra opción de canje de elementos tecnológicos por puntos gracias a ser parte de VIP: <a href='https://promo.meridianbet.pe/es/category/474/page/10505'>LINK</a>",
+        desc: "Nuestra opción de canje de elementos tecnológicos por puntos gracias a ser parte de <a href='https://promo.meridianbet.pe/es/category/474/page/10505'>VIP</a>",
         image: "assets/icons/tecnologia.svg"
       },
     ],
