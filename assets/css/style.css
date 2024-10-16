@@ -545,16 +545,13 @@ display: inline-block;
     }
   }
   @media screen and (max-width: 900px) {
-      .logo {
-          width: 50%;
-      }
+     
       .crown {
-          width: 90px;
           margin-bottom: 10px;
       }
       .hero-wrapper {
   
-         gap: 410px;
+         gap: 430px;
       }
     h1 {
         font-size: 100px;      
@@ -637,7 +634,7 @@ display: inline-block;
 }
   @media screen and (max-width: 376px) {
     .wrapper {
-        margin: 150px auto 0 auto;
+        margin: 100px auto 0 auto;
     }
     .text-box-1 h4 {
         font-size: 26px;
