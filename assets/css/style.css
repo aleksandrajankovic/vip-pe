@@ -298,7 +298,6 @@ ul {
 .popup-box img {
     height: 67px;
     text-align: center;
-    box-shadow: 5px 10px 15px 0px #00000040;
 }
 
 .popup-box h2 {
@@ -614,7 +613,7 @@ display: inline-block;
 }
   @media screen and (max-width: 376px) {
     .wrapper {
-        margin: 100px auto 0 auto;
+        margin: 150px auto 0 auto;
     }
     .text-box-1 h4 {
         font-size: 26px;
