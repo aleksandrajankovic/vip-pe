@@ -183,16 +183,16 @@ let data = {
         if (rankingData[rank].bulletFour !== undefined) {
             html += `<li class="list-box"><img src="/vip/assets/icons/bullet.svg" alt="Icon">${rankingData[rank].bulletFour}</li>`;
         }
-        
+        if (rankingData[rank].bulletFive !== undefined) {
+          html += `<li class="list-box"><img src="/vip/assets/icons/bullet.svg" alt="Icon">${rankingData[rank].bulletFive}</li>`;
+      }
+      if (rankingData[rank].bulletSix !== undefined) {
+          html += `<li class="list-box"><img src="/vip/assets/icons/bullet.svg" alt="Icon">${rankingData[rank].bulletSix}</li>`;
+      }
         // Start hidden bullets section
         html += `<div class="more-bullets" style="display: none;">`;
         
-        if (rankingData[rank].bulletFive !== undefined) {
-            html += `<li class="list-box"><img src="/vip/assets/icons/bullet.svg" alt="Icon">${rankingData[rank].bulletFive}</li>`;
-        }
-        if (rankingData[rank].bulletSix !== undefined) {
-            html += `<li class="list-box"><img src="/vip/assets/icons/bullet.svg" alt="Icon">${rankingData[rank].bulletSix}</li>`;
-        }
+       
         if (rankingData[rank].bulletSeven !== undefined) {
             html += `<li class="list-box"><img src="/vip/assets/icons/bullet.svg" alt="Icon">${rankingData[rank].bulletSeven}</li>`;
         }
