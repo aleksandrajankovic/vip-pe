@@ -224,11 +224,7 @@ ul {
     text-transform: capitalize;
     margin-bottom: 2rem;
 }
-.list-box {
-    display: flex;
-    align-items: center;
-    gap: 0.3rem;
-}
+
 .list-box img {
     margin-right: 5px;
 }

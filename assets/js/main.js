@@ -50,7 +50,7 @@ let data = {
           bulletThree: "Bonificaciones mensuales de S/.200 puntos",
           bulletFour: "Agente personalizado al 985412060",
           bulletFive: "Premios personalizados por fidelidad",
-          bulletSix: "Canje de puntos por premios de su interés <u></u> más exclusivos para ORO.",
+          bulletSix: "Canje de puntos por premios de su interés <u> más exclusivos para ORO.</u>",
           bulletSeven: "Gestión y solución de dudas inmediatas ",
           bulletEight: "Asesoría constante en el uso de la plataforma y sobre los productos de novedad ",
           bulletNine: "Línea abierta para comunicarse con su agente y resuelva sus inquietudes ",
