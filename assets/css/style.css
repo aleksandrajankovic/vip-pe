@@ -336,6 +336,7 @@ ul {
     display: block;
     opacity: 1;
 }
+
 /*FOOTER STYLING*/
 footer {
     height: auto;
@@ -594,7 +595,7 @@ display: inline-block;
     }
     .wrapper {
         width: 90%;
-        margin: 50px auto 0 auto;
+        margin: 0px auto;
         padding-bottom: 100px;
     }
   
@@ -636,7 +637,7 @@ display: inline-block;
     }
     .wrapper {
 
-        margin: 100px auto 0 auto;
+        margin: 0px auto;
 
     }
     .popup-box h2 {
@@ -652,7 +653,7 @@ display: inline-block;
 }
   @media screen and (max-width: 376px) {
     .wrapper {
-        margin: 100px auto 0 auto;
+        margin: 0px auto;
     }
     .text-box-1 h4 {
         font-size: 26px;

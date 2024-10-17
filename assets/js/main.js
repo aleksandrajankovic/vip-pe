@@ -23,14 +23,14 @@ let data = {
       rezervacijeAvion: [
         {
           title: "Regalos",
-          desc: "Cada mes disponible en sorteo interno entre integrantes de sala VIP tickets para conciertos, teatros y más.",
+          desc: "Una lista de regalos por cumpleaños, aniversario y Navidad exclusivamente disponibles para ti.",
           image: "assets/icons/regalos.svg"
         },
       ],
       rezervacijeUlaznice: [
         {
           title: "TICKETS",
-          desc: "Una lista de regalos por cumpleaños, aniversario y Navidad exclusivamente disponibles para ti.",
+          desc: "Cada mes disponible en sorteo interno entre integrantes de sala VIP tickets para conciertos, teatros y más.",
           image: "assets/icons/tickets.svg"
         },
       ],
@@ -43,6 +43,31 @@ let data = {
       ],
       rankingSystem: {
       
+        platinum: {
+          head : "VIP ORO",
+          bulletOne: "Retiro inmediato hasta de 50 mil por solicitud ",
+          bulletTwo: "Cashback semanal efectivo mayor ",
+          bulletThree: "Bonificaciones mensuales de S/.200 puntos",
+          bulletFour: "Agente personalizado al 985412060",
+          bulletFive: "Premios personalizados por fidelidad",
+          bulletSix: "Canje de puntos por premios de su interés <u></u> más exclusivos para ORO.",
+          bulletSeven: "Gestión y solución de dudas inmediatas ",
+          bulletEight: "Asesoría constante en el uso de la plataforma y sobre los productos de novedad ",
+          bulletNine: "Línea abierta para comunicarse con su agente y resuelva sus inquietudes ",
+        },
+        gold: {
+          head : "VIP PLATA",
+         
+          bulletOne: "Retiro inmediato hasta de 30 mil por solicitud",
+          bulletTwo: "Cashback semanal efectivo mayor ",
+          bulletThree: "Bonificaciones mensuales de S/.150 puntos",
+          bulletFour: "Agente personalizado al 985412060",
+          bulletFive: "Premios personalizados por fidelidad",
+          bulletSix: "Canje de puntos por premios de su interés",
+          bulletSeven: "Gestión y solución de dudas inmediatas ",
+          bulletEight: "Asesoría constante en el uso de la plataforma y sobre los productos de novedad ",
+          bulletNine: "Línea abierta para comunicarse con su agente y resuelva sus inquietudes ",
+        },
         silver: {
           head : "VIP",
           bulletOne: "Retiro inmediato hasta de 20 mil por solicitud ",
@@ -54,31 +79,8 @@ let data = {
           bulletSeven: "Gestión y solución de dudas inmediatas  ",
           bulletEight: "Asesoría constante en el uso de la plataforma y sobre los productos de novedad ",
         },
-        gold: {
-          head : "VIP PLATA",
-         
-          bulletOne: "Retiro inmediato hasta de 20 mil por solicitud ",
-          bulletTwo: "Cashback semanal efectivo mayor ",
-          bulletThree: "Bonificaciones mensuales de S/.150 puntos",
-          bulletFour: "Agente personalizado al 985412060",
-          bulletFive: "Premios personalizados por fidelidad",
-          bulletSix: "Canje de puntos por premios de su interés",
-          bulletSeven: "Gestión y solución de dudas inmediatas ",
-          bulletEight: "Asesoría constante en el uso de la plataforma y sobre los productos de novedad ",
-          bulletNine: "Línea abierta para comunicarse con su agente y resuelva sus inquietudes ",
-        },
-        platinum: {
-          head : "VIP GOLD",
-          bulletOne: "Retiro inmediato hasta de 30 mil por solicitud ",
-          bulletTwo: "Cashback semanal efectivo mayor ",
-          bulletThree: "Bonificaciones mensuales de S/.200 puntos",
-          bulletFour: "Agente personalizado al 985412060",
-          bulletFive: "Premios personalizados por fidelidad",
-          bulletSix: "Canje de puntos por premios de su interés",
-          bulletSeven: "Gestión y solución de dudas inmediatas ",
-          bulletEight: "Asesoría constante en el uso de la plataforma y sobre los productos de novedad ",
-          bulletNine: "Línea abierta para comunicarse con su agente y resuelva sus inquietudes ",
-        },
+        
+    
         
       }
   };
