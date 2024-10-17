@@ -18,7 +18,7 @@ box-sizing: border-box;
 
 h1 {
     font-size: 150px;
-    background: linear-gradient(180deg, #FCF5A3 0%, #F3E189 25%, #E9CC6F 50%, #BC9D63 75%, #6B5636 100%);
+    background: linear-gradient(188deg, #FCF5A3 0%, #F3E189 25%, #E9CC6F 50%, #BC9D63 75%, #6B5636 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'Roboto Flex', sans-serif;
@@ -70,7 +70,7 @@ ul {
     justify-content: space-between;
     align-items: center;
     height: 100%;
-    gap: 550px
+    gap: 570px
 }
 .hero-elements {
     display: flex;

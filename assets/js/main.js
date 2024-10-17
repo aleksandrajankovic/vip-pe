@@ -9,7 +9,7 @@ let data = {
     specijalniBonusi: [
       {
         title: "Tecnología",
-        desc: "Nuestra opción de canje de elementos tecnológicos por puntos gracias a ser parte de <a href='https://promo.meridianbet.pe/es/category/474/page/10505'>VIP</a>",
+        desc: "Nuestra opción de canje de elementos tecnológicos por puntos gracias a ser parte de <a href='https://promo.meridianbet.pe/es/category/474/page/10505' target='_blank'>VIP</a>",
         image: "assets/icons/tecnologia.svg"
       },
     ],
@@ -228,7 +228,7 @@ function toggleBullets(button) {
     allBoxes.forEach((box) => {
         if (box !== moreBullets) {
             box.style.display = 'none';
-            box.nextElementSibling.textContent = 'Mostrar más'; // Update the button text to "Mostrar más"
+            box.nextElementSibling.textContent = 'Mostrar más';
         }
     });
 
